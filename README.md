@@ -1,6 +1,6 @@
 # npmtest-package-json
 
-#### test coverage for  [package-json (v4.0.1)](https://github.com/sindresorhus/package-json#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-package-json.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-package-json) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-package-json.svg)](https://travis-ci.org/npmtest/node-npmtest-package-json)
+#### basic test coverage for  [package-json (v4.0.1)](https://github.com/sindresorhus/package-json#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-package-json.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-package-json) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-package-json.svg)](https://travis-ci.org/npmtest/node-npmtest-package-json)
 
 #### Get metadata of a package from the npm registry
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-package-json/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-package-json/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-package-json/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-package-json/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-package-json/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-package-json/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-package-json/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-package-json/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-package-json/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-package-json/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-package-json/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-package-json/build/coverage.html/index.html)
 
@@ -96,7 +96,8 @@
     "scripts": {
         "test": "xo && ava"
     },
-    "version": "4.0.1"
+    "version": "4.0.1",
+    "bin": {}
 }
 ```
 
